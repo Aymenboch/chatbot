@@ -88,7 +88,7 @@ Question : {question}
 
 Réponse :"""
 
-    return PromptTemplate(template=template, input_variables=["chat_history", "context", "question"])
+    return PromptTemplate(template=template3, input_variables=["chat_history", "context", "question"])
 
 
 
@@ -325,23 +325,29 @@ if "qa_chain" not in st.session_state or "memory" not in st.session_state:
         )
 
 # Session management dropdown
-previous_sessions_data = get_chat_history(st.session_state.user_id)
-session_options_map = {"✨ Nouvelle session ✨": "new_session_identifier"}
+col1, col2 = st.columns([3, 1])
+with col2:
+    previous_sessions_data = get_chat_history(st.session_state.user_id)
+    session_options_map = {"✨ Nouvelle session ✨": "new_session_identifier"}
 
-if previous_sessions_data:
-    for session_id, last_used, first_prompt_text in previous_sessions_data:
-        try:
-            # Handle potential milliseconds in timestamp from DB
-            dt_object = datetime.strptime(last_used.split(".")[0], '%Y-%m-%d %H:%M:%S')
-            label = f"🗓️ {dt_object.strftime('%d/%m %H:%M')} - {first_prompt_text[:35]}..." if first_prompt_text else f"🗓️ {dt_object.strftime('%d/%m/%Y %H:%M')} - Session vide"
-            session_options_map[label] = session_id
-        except ValueError: # Fallback if timestamp format is unexpected
-            session_options_map[f"Session ID: {session_id[:8]}..."] = session_id
+    if previous_sessions_data:
+        for session_id, last_used, first_prompt_text in previous_sessions_data:
+            try:
+                dt_object = datetime.strptime(last_used.split(".")[0], '%Y-%m-%d %H:%M:%S')
+                label = f"🗓️ {dt_object.strftime('%d/%m %H:%M')} - {first_prompt_text[:35]}..." if first_prompt_text else f"🗓️ {dt_object.strftime('%d/%m/%Y %H:%M')} - Session vide"
+                session_options_map[label] = session_id
+            except ValueError:
+                session_options_map[f"Session ID: {session_id[:8]}..."] = session_id
 
-selected_session_label = st.selectbox(
-    "Gérer les sessions:",
-    list(session_options_map.keys())
-)
+    selected_session_label = st.selectbox(
+        "Gérer les sessions:",
+        list(session_options_map.keys()),
+        key="session_selector",
+        label_visibility="collapsed"
+    )
+
+with col1:
+    st.write("Chat en cours")
 
 selected_session_key = session_options_map[selected_session_label]
 session_action_triggered = False
@@ -366,8 +372,8 @@ elif selected_session_key != st.session_state.current_session:
     
     history_for_selected_session = get_chat_history(st.session_state.user_id, st.session_state.current_session)
     for prompt_text, response_text, _ in history_for_selected_session:
-        st.session_state.messages.append({"role": "user", "content": prompt_text})
-        st.session_state.messages.append({"role": "assistant", "content": response_text})
+        st.session_state.messages.append({"role": "user", "content": prompt_text, "avatar":'C:/Users/aayme/Desktop/chatbot/cynoia.jpg'})
+        st.session_state.messages.append({"role": "assistant", "content": response_text, "avatar":'C:/Users/aayme/Desktop/chatbot/cynoia.jpg'})
         if "memory" in st.session_state:
             st.session_state.memory.chat_memory.add_user_message(prompt_text)
             st.session_state.memory.chat_memory.add_ai_message(response_text)
@@ -390,7 +396,8 @@ elif not st.session_state.messages: # If messages list is empty after session lo
 
 # Display chat messages
 for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
+    avatar = message.get("avatar") if message["role"] == "assistant" else None
+    with st.chat_message(message["role"], avatar=avatar):
         st.markdown(message["content"])
 
 # Chat interaction
