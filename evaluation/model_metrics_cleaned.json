@@ -1,0 +1,123 @@
+[
+  {
+    "bleu_score": 0.05132513001362105,
+    "rouge1": 0.2814814814814815,
+    "rouge2": 0.12030075187969926,
+    "rougeL": 0.1925925925925926,
+    "bert_f1": 0.7116767168045044,
+    "cosine_similarity": 0.7833477258682251,
+    "response": "cynoia est une plateforme simple et intuitive qui centralise la gestion de projets, la communication et la collaboration. elle permet de gerer des projets, le chat, les notes, les reunions et le calendrier en un seul endroit.\n\ncynoia aide a gerer votre equipe en :\n*   centralisant toutes les informations et outils pour une meilleure efficacite.\n*   permettant de gerer plusieurs projets, suivre les taches, les echeances et les mises a jour.\n*   maintenant l'equipe engagee, responsable et performante.\n*   indiquant ce qui est accompli, par qui et pour quand.\n*   offrant une solution autonome et accessible, qui commence gratuitement et evolue avec la taille de l'equipe.",
+    "reference": "cynoia est une plateforme tout-en-un concue pour optimiser la collaboration au sein de votre equipe. elle regroupe messagerie, gestion de projets, visioconferences et stockage de fichiers dans un espace unique.",
+    "question": "Qu'est-ce que Cynoia et comment cela peut-il m'aider à gérer mon équipe ?"
+  },
+  {
+    "bleu_score": 0.024887938988772416,
+    "rouge1": 0.25396825396825395,
+    "rouge2": 0.03278688524590165,
+    "rougeL": 0.19047619047619044,
+    "bert_f1": 0.6924880743026733,
+    "cosine_similarity": 0.6596312522888184,
+    "response": "cynoia est une solution tout-en-un qui optimise la productivite de votre equipe et reduit vos couts. elle permet d'organiser les taches, suivre leurs progres, definir des priorites claires, planifier les reunions, suivre les echeances et gerer les evenements.",
+    "reference": "cynoia est pense pour les entreprises africaines, avec une interface multilingue, des performances optimisees pour les faibles connexions et un tarif accessible.",
+    "question": "Pourquoi choisir Cynoia pour mon entreprise ?"
+  },
+  {
+    "bleu_score": 0.05579514262413222,
+    "rouge1": 0.36363636363636365,
+    "rouge2": 0.06451612903225806,
+    "rougeL": 0.30303030303030304,
+    "bert_f1": 0.7655526995658875,
+    "cosine_similarity": 0.6202477812767029,
+    "response": "projets, taches, chat, reunions, notes, calendrier, partage de fichiers.",
+    "reference": "cynoia propose la gestion de projets (kanban, taches), un calendrier synchronisable, un chat d'equipe, les appels video, et le stockage securise de fichiers.",
+    "question": "Quelles sont les fonctionnalités principales de Cynoia ?"
+  },
+  {
+    "bleu_score": 0.11749577060207896,
+    "rouge1": 0.38356164383561636,
+    "rouge2": 0.1971830985915493,
+    "rougeL": 0.24657534246575344,
+    "bert_f1": 0.756151020526886,
+    "cosine_similarity": 0.8189389705657959,
+    "response": "cynoia est concu pour remplacer des outils comme slack et notion, offrant une solution tout-en-un pour le chat, les taches, les reunions et les notes, sans necessiter de changer d'application. le contexte ne mentionne pas d'integrations avec google drive, slack ou trello, mais plutot une consolidation des fonctionnalites.",
+    "reference": "oui, cynoia permet l'integration avec des outils comme google drive, slack ou trello pour centraliser les activites de l'equipe.",
+    "question": "Cynoia peut-il s'intégrer avec d'autres outils comme Google Drive, Slack ou Trello ?"
+  },
+  {
+    "bleu_score": 0.03066455401840426,
+    "rouge1": 0.3137254901960784,
+    "rouge2": 0.04081632653061224,
+    "rougeL": 0.19607843137254902,
+    "bert_f1": 0.7404934167861938,
+    "cosine_similarity": 0.7067034244537354,
+    "response": "cynoia centralise taches, discussions, appels video, projets, chat, notes, reunions et calendrier sur une seule plateforme, reduisant le chaos et le temps perdu a naviguer entre les applications.",
+    "reference": "en centralisant la communication, la gestion des taches et le partage de fichiers, cynoia reduit les pertes de temps et ameliore la coordination.",
+    "question": "Comment Cynoia peut-il améliorer la productivité de mon équipe ?"
+  },
+  {
+    "bleu_score": 0.015126073190876959,
+    "rouge1": 0.3448275862068966,
+    "rouge2": 0.03571428571428571,
+    "rougeL": 0.24137931034482757,
+    "bert_f1": 0.71909099817276,
+    "cosine_similarity": 0.528957188129425,
+    "response": "cynoia fonctionne hors ligne et se synchronise des le retour du reseau. il est leger et fluide, meme avec une connexion lente, un faible debit ou un reseau instable, et protege votre travail en cas de coupure.",
+    "reference": "cynoia est optimise pour les connexions lentes grace a un systeme de mise en cache et une faible consommation de donnees.",
+    "question": "Comment Cynoia peut-il m'aider à travailler avec une connexion Internet lente ?"
+  },
+  {
+    "bleu_score": 0.029596914123201788,
+    "rouge1": 0.25396825396825395,
+    "rouge2": 0.03278688524590164,
+    "rougeL": 0.22222222222222227,
+    "bert_f1": 0.7025330662727356,
+    "cosine_similarity": 0.5220544338226318,
+    "response": "cynoia se distingue par son equilibre ideal entre fonctionnalite et simplicite, offrant une plateforme tout-en-un pour gerer taches, notes, discussions d'equipe et appels video sans quitter l'application. elle centralise les outils pour simplifier la productivite et reduire le stress.",
+    "reference": "cynoia se demarque par sa simplicite, ses prix abordables, son adaptabilite aux realites africaines et sa centralisation des outils collaboratifs.",
+    "question": "Qu'est-ce qui distingue Cynoia des autres plateformes de gestion de projet ?"
+  },
+  {
+    "bleu_score": 0.16365216309069436,
+    "rouge1": 0.43636363636363634,
+    "rouge2": 0.18867924528301885,
+    "rougeL": 0.36363636363636365,
+    "bert_f1": 0.7605683207511902,
+    "cosine_similarity": 0.7830718755722046,
+    "response": "cynoia propose un plan gratuit pour un maximum de 10 utilisateurs. les formules payantes sont a prix fixe et permettent d'ajouter des utilisateurs sans frais supplementaires.",
+    "reference": "cynoia propose un plan gratuit pour les petites equipes, un plan pro a partir de 12EUR/mois/utilisateur, et un plan team sur mesure pour les grandes entreprises.",
+    "question": "Quels sont les prix de Cynoia ?"
+  },
+  {
+    "bleu_score": 0.038483454698450964,
+    "rouge1": 0.20689655172413793,
+    "rouge2": 0.07407407407407407,
+    "rougeL": 0.20689655172413793,
+    "bert_f1": 0.7609574794769287,
+    "cosine_similarity": 0.3739050030708313,
+    "response": "oui, cynoia propose un essai gratuit et un plan gratuit.",
+    "reference": "oui, une periode d'essai gratuite de 14 jours est offerte pour tester toutes les fonctionnalites de la plateforme.",
+    "question": "Cynoia propose-t-il une période d’essai gratuite ?"
+  },
+  {
+    "bleu_score": 0.028933441477048884,
+    "rouge1": 0.31746031746031744,
+    "rouge2": 0.09836065573770492,
+    "rougeL": 0.1904761904761905,
+    "bert_f1": 0.7333099842071533,
+    "cosine_similarity": 0.6143773794174194,
+    "response": "oui. cynoia s'engage pour la securite et la confidentialite de vos donnees et est en cours d'obtention des certifications iso/cei 27001, iso/cei 42001 et soc 2. ces normes internationales garantissent la protection de votre travail au plus haut niveau.",
+    "reference": "oui, cynoia utilise le chiffrement, un stockage cloud securise et est conforme au rgpd pour garantir la confidentialite des donnees.",
+    "question": "Cynoia respecte-t-il les normes de sécurité pour protéger mes données ?"
+  },
+  {
+    "bleu_score": 0.05474870710453654,
+    "rouge1": 0.3846153846153846,
+    "rouge2": 0.12,
+    "rougeL": 0.3846153846153846,
+    "bert_f1": 0.7543277740478516,
+    "cosine_similarity": 0.7483432292938232,
+    "response": "le programme d'affiliation de cynoia offre un suivi facile des progres, du contenu pret a publier et des offres vip. plus les revenus generes sont eleves, plus les avantages augmentent.",
+    "reference": "le programme d'affiliation permet de recommander cynoia via un lien personnel et de gagner des commissions sur les ventes generees.",
+    "question": "Qu'est-ce que le programme d'affiliation de Cynoia et comment cela fonctionne-t-il ?"
+  }
+]

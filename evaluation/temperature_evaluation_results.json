@@ -1,0 +1,74 @@
+[
+  {
+    "temperature": 0.1,
+    "avg_bleu": 0.02167907734426684,
+    "avg_rouge1": 0.3262133468149646,
+    "avg_rougeL": 0.2245534209639366,
+    "avg_bert_f1": 0.7166511615117391,
+    "avg_cosine_similarity": 0.667225976785024,
+    "sample_responses": [
+      "Cynoia est un espace de travail tout-en-un conçu pour les équipes africaines. Il aide à organiser, synchroniser et aligner les équipes en fournissant des fonctionnalités essentielles pour une collaboration efficace. Il est simple d'utilisation, léger en consommation de données et gratuit pour les petites équipes."
+    ],
+    "num_successful_questions": 3
+  },
+  {
+    "temperature": 0.3,
+    "avg_bleu": 0.022926308289983755,
+    "avg_rouge1": 0.29074719318621756,
+    "avg_rougeL": 0.20170344560588463,
+    "avg_bert_f1": 0.7125457525253296,
+    "avg_cosine_similarity": 0.6494389971097311,
+    "sample_responses": [
+      "Cynoia est un espace de travail tout-en-un qui aide les équipes africaines à s'organiser, rester synchronisées et alignées. Il facilite la collaboration grâce à des fonctionnalités essentielles, sans complexité inutile. Il est conçu pour être léger en consommation de données, intuitif et abordable, même pour les débutants."
+    ],
+    "num_successful_questions": 3
+  },
+  {
+    "temperature": 0.5,
+    "avg_bleu": 0.022964195257417396,
+    "avg_rouge1": 0.2946743179301318,
+    "avg_rougeL": 0.19254720915850485,
+    "avg_bert_f1": 0.6946355303128561,
+    "avg_cosine_similarity": 0.6365710695584615,
+    "sample_responses": [
+      "Cynoia est un espace de travail tout-en-un qui aide les équipes africaines à rester synchronisées, alignées et efficaces. Il facilite l'organisation et la collaboration en fournissant juste les fonctionnalités essentielles, sans complexité, permettant à l'équipe de rester productive même avec un réseau lent et étant facile à comprendre pour tous."
+    ],
+    "num_successful_questions": 3
+  },
+  {
+    "temperature": 0.7,
+    "avg_bleu": 0.02185448410924563,
+    "avg_rouge1": 0.29463211026985053,
+    "avg_rougeL": 0.20123600595353652,
+    "avg_bert_f1": 0.6956968108812968,
+    "avg_cosine_similarity": 0.6564093828201294,
+    "sample_responses": [
+      "Cynoia est un espace de travail tout-en-un qui aide les équipes à s'organiser, rester synchronisées, alignées et efficaces. Il est conçu pour être simple, léger en consommation de données, et facile à comprendre, même pour les débutants en gestion de projet, en se concentrant sur les besoins des équipes africaines."
+    ],
+    "num_successful_questions": 3
+  },
+  {
+    "temperature": 0.9,
+    "avg_bleu": 0.019598543388560107,
+    "avg_rouge1": 0.29045776918117344,
+    "avg_rougeL": 0.21760154738878143,
+    "avg_bert_f1": 0.7111613949139913,
+    "avg_cosine_similarity": 0.6547860503196716,
+    "sample_responses": [
+      "Cynoia est un espace de travail tout-en-un conçu pour les équipes africaines, les aidant à s'organiser, collaborer et rester alignées. Il offre des fonctionnalités essentielles sans complexité, est facile à utiliser et léger en consommation de données pour garantir la productivité même avec un réseau lent ou instable. Il est gratuit pour les petites équipes et abordable en grandissant."
+    ],
+    "num_successful_questions": 3
+  },
+  {
+    "temperature": 1.0,
+    "avg_bleu": 0.026297682340432088,
+    "avg_rouge1": 0.3260758848994143,
+    "avg_rougeL": 0.2125456243103302,
+    "avg_bert_f1": 0.714533805847168,
+    "avg_cosine_similarity": 0.6503840684890747,
+    "sample_responses": [
+      "Cynoia est un espace de travail tout-en-un conçu pour les équipes africaines. Il aide votre équipe à s'organiser facilement, à rester alignée, synchronisée et efficace. Cynoia facilite la collaboration avec des fonctionnalités essentielles, est léger en consommation de données, intuitif et adaptable pour tous les membres de l'équipe."
+    ],
+    "num_successful_questions": 3
+  }
+]

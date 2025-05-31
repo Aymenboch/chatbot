@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Qu'est-ce que Cynoia et comment cela peut-il m'aider à gérer mon équipe ?",
+    "reference_answer": "Cynoia est une plateforme SaaS panafricaine innovante, conçue pour aider les entreprises en Afrique, comme la vôtre, à améliorer leur collaboration et à maintenir une parfaite cohésion d'équipe. Pour la gestion de votre équipe, Cynoia se révèle être un allié précieux grâce à plusieurs atouts majeurs : elle propose une organisation simplifiée et intuitive, sans fonctionnalités superflues ; elle est spécifiquement adaptée aux réalités et besoins locaux ; sa légèreté assure une productivité constante, même avec un réseau instable ; son accessibilité la rend facile à prendre en main pour tous ; elle favorise un alignement collectif pour une efficacité maximale ; et elle offre une structure tarifaire abordable, incluant une gratuité pour les petites équipes. Nous vous invitons chaleureusement à découvrir comment Cynoia peut révolutionner votre manière de collaborer en visitant notre site officiel pour plus d'informations et pour démarrer !"
+  },
+  {
+    "question": "Pourquoi choisir Cynoia pour mon entreprise ?",
+    "reference_answer": "Opter pour Cynoia pour votre entreprise, c'est choisir une solution de collaboration pensée sur mesure pour les défis et opportunités des entreprises africaines, alliant simplicité et grande efficacité. Cynoia se distingue par sa rapidité d'adoption grâce à une interface épurée, permettant à votre équipe d'être productive immédiatement. Sa performance est optimisée pour les environnements à connectivité variable, assurant une fiabilité même lorsque le réseau est limité. De plus, Cynoia est profondément ancré dans les réalités locales, offrant une pertinence que d'autres outils généralistes n'ont pas, et soutient activement les PME dans leur croissance. C'est la solution idéale pour une collaboration fluide. Pour explorer plus en détail comment Cynoia peut bénéficier à votre structure, n'hésitez pas à consulter notre site officiel et à débuter votre essai."
+  },
+  {
+    "question": "Quelles sont les fonctionnalités principales de Cynoia ?",
+    "reference_answer": "Cynoia se concentre sur les fonctionnalités essentielles pour une collaboration d'équipe harmonieuse et performante, en unifiant tous vos outils dans un espace unique et intuitif. Vous y trouverez une gestion de projets efficace, des outils de communication instantanée comme le chat d'équipe, des capacités de prise de notes collaboratives, la planification de réunions et la gestion de calendriers, le tout conçu pour être simple d'accès et sans la complexité superflue d'autres plateformes. L'objectif est de vous permettre de vous concentrer sur l'essentiel et d'être productif rapidement. Pour une présentation détaillée de chaque fonctionnalité et voir comment elles peuvent s'adapter à vos besoins, nous vous encourageons vivement à visiter notre site officiel Cynoia."
+  },
+  {
+    "question": "Cynoia peut-il s'intégrer avec d'autres outils comme Google Drive, Slack ou Trello ?",
+    "reference_answer": "Oui, Cynoia permet l'intégration avec des outils comme Google Drive, Slack ou Trello pour centraliser les activités de l'équipe."
+  },
+  {
+    "question": "Comment Cynoia peut-il améliorer la productivité de mon équipe ?",
+    "reference_answer": "En centralisant la communication, la gestion des tâches et le partage de fichiers, Cynoia réduit les pertes de temps et améliore la coordination."
+  },
+  {
+    "question": "Comment Cynoia peut-il m'aider à travailler avec une connexion Internet lente ?",
+    "reference_answer": "Cynoia est optimisé pour les connexions lentes grâce à un système de mise en cache et une faible consommation de données."
+  },
+  {
+    "question": "Qu'est-ce qui distingue Cynoia des autres plateformes de gestion de projet ?",
+    "reference_answer": "Cynoia se démarque par sa simplicité, ses prix abordables, son adaptabilité aux réalités africaines et sa centralisation des outils collaboratifs."
+  },
+  {
+    "question": "Quels sont les prix de Cynoia ?",
+    "reference_answer": "Cynoia propose un plan gratuit pour les petites équipes, un plan Pro à partir de 12€/mois/utilisateur, et un plan Team sur mesure pour les grandes entreprises."
+  },
+  {
+    "question": "Cynoia propose-t-il une période d’essai gratuite ?",
+    "reference_answer": "Oui, une période d’essai gratuite de 14 jours est offerte pour tester toutes les fonctionnalités de la plateforme."
+  },
+  {
+    "question": "Cynoia respecte-t-il les normes de sécurité pour protéger mes données ?",
+    "reference_answer": "Oui, Cynoia utilise le chiffrement, un stockage cloud sécurisé et est conforme au RGPD pour garantir la confidentialité des données."
+  },
+  {
+    "question": "Qu'est-ce que le programme d'affiliation de Cynoia et comment cela fonctionne-t-il ?",
+    "reference_answer": "Le programme d'affiliation permet de recommander Cynoia via un lien personnel et de gagner des commissions sur les ventes générées."
+  },
+  {
+    "question": "Qu'est-ce que le programme Cynoia Impact et comment peut-il bénéficier à mon entreprise ?",
+    "reference_answer": "Cynoia Impact offre aux startups et ONG africaines un accès gratuit ou réduit à la plateforme, ainsi que des formations pour renforcer leurs capacités."
+  },
+  {
+    "question": "Quels types d'entreprises sont éligibles pour le programme Cynoia Impact ?",
+    "reference_answer": "Les startups à impact social, les ONG et les PME africaines peuvent bénéficier du programme s’ils répondent à certains critères d’éligibilité."
+  },
+  {
+    "question": "Puis-je contrôler l'accès aux informations de mon équipe ?",
+    "reference_answer": "Oui, Cynoia permet une gestion fine des permissions d’accès, garantissant la sécurité des informations sensibles."
+  }
+]

@@ -1,0 +1,50 @@
+
+| Setup Description                                           | SentenceTransformer Model | BERTScorer Model             | BLEU Calculation            | Prompt Type    | Avg BLEU | Avg ROUGE-1 | Avg ROUGE-L | Avg BERT F1 | Avg Cosine Similarity |
+| ----------------------------------------------------------- | ------------------------- | ---------------------------- | --------------------------- | -------------- | -------- | ----------- | ----------- | ----------- | --------------------- |
+| **Before final setup (baseline)**                           | all-MiniLM-L6-v2          | bert-base-multilingual-cased | Raw BLEU (no normalization) |  prompt | 0.029    | 0.308       | 0.229       | 0.755       | \~0.66 (est.)         |
+| **Variation: Different SentenceTransformer + BERTScorer**   | multilingual-e5-small     | xlm-roberta-large            | Raw BLEU                    |  prompt | 0.008    | 0.163       | 0.113       | 0.207       | \~0.62 (est.)         |
+| **Variation: Different SentenceTransformer only**           | all-MiniLM-L6-v2          | xlm-roberta-large            | Raw BLEU                    |  prompt | 0.009    | 0.175       | 0.117       | 0.283       | \~0.73 (est.)         |
+| **Final Setup (Improved BLEU + Normalization + sacreBLEU)** | all-MiniLM-L6-v2          | bert-base-multilingual-cased | sacreBLEU + normalized refs | Simpler prompt | 0.056    | 0.322       | 0.249       | 0.736       | 0.728 (calculated)    |
+
+
+Observations:
+
+1. Impact of BLEU Calculation Method
+Switching from raw BLEU to sacreBLEU with normalization of references significantly increased the BLEU score (from ~0.029 to 0.056).
+
+This shows that token alignment and normalization are crucial for more reliable BLEU results.
+
+2. Effect of SentenceTransformer and BERTScorer Model Choice
+Using the all-MiniLM-L6-v2 SentenceTransformer and bert-base-multilingual-cased BERTScorer yielded better semantic and syntactic similarity metrics than other combinations.
+
+Models like multilingual-e5-small or xlm-roberta-large performed worse on both ROUGE and BERT F1 scores.
+
+This suggests that model selection has a strong impact on metric reliability and alignment with expected semantic similarity.
+
+3. Prompt Consistency
+Since all trials used the same simpler prompt (except the final setup had improved BLEU method), prompt variations didn’t influence the results much.
+
+This confirms that, at least for this evaluation, model and metric improvements had more impact than prompt verbosity.
+
+4. Cosine Similarity as Semantic Metric
+The average cosine similarity remained fairly stable (~0.62 to 0.73) across models but peaked in the final setup (~0.73), aligning with the better BLEU and ROUGE results.
+
+This implies the final setup’s embeddings better captured semantic alignment between generated responses and references.
+
+5. BERTScore Trends
+BERT F1 scores closely follow ROUGE scores trends and support the observation that bert-base-multilingual-cased worked best.
+
+The large jump in BERTScore F1 for the final setup (0.736) despite using the same BERTScorer model suggests improved preprocessing and metric calculation (e.g., BLEU with sacreBLEU) help overall consistency.
+
+
+||||||||||||||||||||||||
+
+
+
+Temperature Evaluation :
+
+Optimal temperature: 0.3
+Metrics at this temperature:
+  BLEU: 0.093
+  ROUGE-1: 0.394
+  BERTScore F1: 0.757

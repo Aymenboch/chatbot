@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+
+# macOS junk
+.DS_Store
+
+# Windows junk
+Thumbs.db
+ehthumbs.db
+
+# Streamlit's cache
+.streamlit/
+
+# Logs and outputs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Local data files
+*.sqlite3
+*.db
+*.csv
+*.tsv
+*.bak
+*.tmp
+
+# Environment and config files
+.env
+.env.*
+
+# Node.js stuff (if using frontend bundling)
+node_modules/
+npm-debug.log
+
+# Miscellaneous
+*.swp
+*~
